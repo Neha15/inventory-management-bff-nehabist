@@ -125,7 +125,7 @@ function addressInfoToString(addressInfo: AddressInfo | string): string {
     return addressInfo;
   }
 
-  const address = addressInfo.address === '::' ? 'localhost' : addressInfo.address;
+  const address = addressInfo.address === '::' ? '127.0.0.1' : addressInfo.address;
 
   return `http://${address}:${addressInfo.port}`;
 }
