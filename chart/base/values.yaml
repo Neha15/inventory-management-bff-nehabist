@@ -45,6 +45,6 @@ vcsInfo:
 
 partOf: ""
 
-connectsTo: ""
+connectsTo: "inventory-management-svc-nehabist"
 
 runtime: nodejs
